@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Akafuba",
+    "slug": "Akafuba",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/akafuba_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/akafuba_logo_3x.png",
+      "resizeMode": "scale-down",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/akafuba_logo_3x.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.EWH.Akafuba"
+    },
+    "web": {
+      "favicon": "./assets/akafuba_logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66ee9bf4-5a70-4e3d-802a-0a90904f0e42"
+      }
+    }
+  }
+}

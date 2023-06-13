@@ -1,0 +1,377 @@
+{
+  "module_1": {
+    "moduleName": "What is TB?",
+    "moduleImage": "TB1b.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "TB is a highly infectious disease that generally affects the lungs",
+        "image": "TB1a.png"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "There are 3 types of TB but only 2 types are contagious.",
+        "answerChoices": [true, false],
+        "answer": true,
+        "questionImage": "TB1b.png"
+      },
+      {
+        "screen": "explanation",
+        "text": "True! The 3 types of TB are: Active (contagious), Latent (not contagious) and Multi-drug resistant TB (contagious). Latent TB is not contagious but needs to be treated as it can turn to active TB later on.",
+        "answer": "true"
+      }
+    ]
+  },
+
+  "module_2": {
+    "moduleName": "How does it spread?",
+    "moduleImage": "TB2a.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "TB spreads through the air when an infected person talks, coughs or sneezes.",
+        "image": "TB2a.png"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "I heard that children don’t get TB. Is that true?",
+        "answerChoices": [true, false],
+        "answer": false,
+        "questionImage": "TB2b.png"
+      },
+      {
+        "screen": "explanation",
+        "text": "False! Anyone can get TB.",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "Will I get TB if I touch someone that has TB?",
+        "answerChoices": [true, false],
+        "answer": false,
+        "questionImage": "TB2c.png"
+      },
+      {
+        "screen": "explanation",
+        "text": "False! TB only spreads through the air and breathed in.",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "MC",
+        "question": "Who gets TB?",
+        "answerChoices": [
+          "People that have HIV",
+          "Only smokers",
+          "Anyone",
+          "Only adults"
+        ],
+        "answer": "Anyone",
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "Anyone! Although anyone can get TB, persons at risk are pregnant women, children and anyone with lowered immune systems and underlying health conditions.",
+        "answer": "Anyone"
+      }
+    ]
+  },
+
+  "module_3": {
+    "moduleName": "Symptoms of TB",
+    "moduleImage": "TB3ai.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Persistent cough (cough lasts longer than 2 weeks)",
+        "image": "TB3ai.png"
+      },
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Chest pain",
+        "image": null
+      },
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Weakness & fatigue",
+        "image": "TB3aii.png"
+      },
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Loss of appetite",
+        "image": null
+      },
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Fever",
+        "image": null
+      },
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Chills and night sweats",
+        "image": "TB3avii.png"
+      },
+      {
+        "screen": "story",
+        "text": "TB Symptoms: Blood sputum",
+        "image": null
+      }
+    ]
+  },
+
+  "module_4": {
+    "moduleName": "Testing for TB",
+    "moduleImage": "TB4eii.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "When should I go for testing? \n\nWhen the 2 following occurs: \n\nWhen you have been around someone that has TB and if you begin to have symptoms of TB.",
+        "image": null
+      },
+
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "I don’t need to go for testing even though I have many of the symptoms.",
+        "answerChoices": [true, false],
+        "answer": false,
+        "explanation": "False!! If you have symptoms and have recently been around anyone that has TB, you need to go immediately to be tested!",
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "False! If you have symptoms and have recently been around anyone that has TB, you need to go immediately to be tested!",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "If I’m tested for TB, doesn’t it mean that I have HIV?",
+        "answerChoices": [true, false],
+        "answer": false,
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "False! People that have HIV are more susceptible to getting TB but there is no other connection between the 2 diseases.",
+        "answer": "false"
+      },
+      {
+        "screen": "story",
+        "text": "Where do I go for testing?\n\nHCIII's, HC IV's, and Government Hospitals",
+        "image": "TB4d.png"
+      },
+      {
+        "screen": "story",
+        "text": "How do they test?\nSkin Test",
+        "image": "TB4ei.png"
+      },
+      {
+        "screen": "story",
+        "text": "How do they test?\nBlood test",
+        "image": "TB4eii.png"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "I’ve heard that when you get a test that the doctor injects you with TB? Is that true?",
+        "answerChoices": [true, false],
+        "answer": false,
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "False! the doctor needs to either test your skin or blood to see if you have TB. They want you to get better not worse!",
+        "answer": "false"
+      }
+    ]
+  },
+  "module_5": {
+    "moduleName": "Treatment for TB",
+    "moduleImage": "TB5a.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "Treatment for TB depends on the severity and length of time before being tested.",
+        "image": "TB5a.png"
+      },
+      {
+        "screen": "story",
+        "text": "Early diagnosis: Treatment is quicker when you are tested early (generally 6 months)",
+        "image": "TB5a.png"
+      },
+      {
+        "screen": "story",
+        "text": "Later diagnosis: the longer you wait for testing will lengthen the amount of time for treatment (9 months to 1 year)",
+        "image": "TB5a.png"
+      },
+      {
+        "screen": "story",
+        "text": "Severe TB: Severe cases require 1 year for treatment and sometimes longer if the patient doesn’t take the medication regularly",
+        "image": "TB5a.png"
+      },
+
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "Even if I get tested positive for TB, I don’t need to go for treatment.",
+        "answerChoices": [true, false],
+        "answer": false,
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "False! TB is fatal if you don’t go for treatment",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": " I heard that someone went to a traditional healer and recovered. Is that possible?",
+        "answerChoices": [true, false],
+        "answer": false,
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "False! There are no home treatments for TB. You must have medical treatment or the disease is fatal.",
+        "answer": "false"
+      }
+    ]
+  },
+
+  "module_6": {
+    "moduleName": "Myths & Misconceptions",
+    "moduleImage": "TB6c.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "Let’s talk about some common misconceptions about TB.",
+        "image": "TB6a.png"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "I heard that TB cannot be cured.",
+        "answerChoices": [true, false],
+        "answer": false,
+        "explanation": "False! TB is curable but is quicker to cure if you go early for testing and treatment.",
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "False! TB is curable but is quicker to cure if you go early for testing and treatment.",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "I heard that I shouldn’t share any eating utensils with someone sick with TB as I will get sick too!",
+        "answerChoices": [true, false],
+        "answer": false,
+        "explanation": "False! TB is only spread through the air.",
+        "questionImage": "TB6c.png"
+      },
+      {
+        "screen": "explanation",
+        "text": "False! TB is only spread through the air.",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "MC",
+        "question": "My neighbor went for treatment and died anyway. Why?",
+        "answerChoices": [
+          "The person went for testing and treatment too long after having the disease.",
+          "The person didn’t take the medicine as prescribed.",
+          "The person was ill from another disease which makes it harder to treat someone.",
+          "All of the reasons."
+        ],
+        "answer": "All of the reasons",
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "There are many reasons but could be one of the following:\n\n1. The person went for testing and treatment too long after having the disease.\n2. The person didn’t take the medicine as prescribed.\n3. The person was ill from another disease which makes it harder to treat someone., These are some reasons why it is extremely important to go for testing as soon as you suspect you may have TB. Early testing and early treatment can save your life!",
+        "answer": "All of the reasons."
+      }
+    ]
+  },
+  "module_7": {
+    "moduleName": "Prevention: How do I keep from getting TB?",
+    "moduleImage": "TB7a.png",
+    "pages": [
+      {
+        "screen": "story",
+        "text": "There are several things you can do to prevent getting TB:\n\nGet vaccinated",
+        "image": null
+      },
+      {
+        "screen": "story",
+        "text": "There are several things you can do to prevent getting TB:\n\nWash your hands often",
+        "image": "TB7ai.png"
+      },
+      {
+        "screen": "story",
+        "text": "There are several things you can do to prevent getting TB:\n\nAvoid being close to someone who is sick with TB",
+        "image": "TB7ai.png"
+      },
+      {
+        "screen": "story",
+        "text": "There are several things you can do to prevent getting TB:\n\nWear a face mask if you are caring for someone who is sick with TB",
+        "image": "TB7ai.png"
+      },
+      {
+        "screen": "story",
+        "text": "Make healthy choices:\n\nDon't smoke",
+        "image": "TB7av1.png"
+      },
+      {
+        "screen": "story",
+        "text": "Make healthy choices:\n\nDon't take un-prescribed medications",
+        "image": null
+      },
+      {
+        "screen": "story",
+        "text": "Make healthy choices:\n\nDon’t drink alcohol",
+        "image": "TB7av3.png"
+      },
+      {
+        "screen": "story",
+        "text": "Make healthy choices:\n\nEat a healthy diet and exercise",
+        "image": null
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "I don’t believe that vaccinations work. Am I right or wrong?",
+        "answerChoices": [true, false],
+        "answer": false,
+        "explanation": "False, however, this is a difficult question as you may still get TB even after getting vaccinated, but with any immunization, you will have better chances of a faster recovery if you are vaccinated, go early for testing and treatment.",
+        "questionImage": "TB7b.png"
+      },
+      {
+        "screen": "explanation",
+        "text": "False, however, this is a difficult question as you may still get TB even after getting vaccinated, but with any immunization, you will have better chances of a faster recovery if you are vaccinated, go early for testing and treatment.",
+        "answer": "false"
+      },
+      {
+        "screen": "question",
+        "type": "TF",
+        "question": "Did you know that if you got TB you could pass it on to your entire family?",
+        "answerChoices": [true, false],
+        "answer": true,
+        "explanation": "True! When someone gets TB, the family members are more likely to get TB too. It is important to practice good hygiene, wash your hands often, cover your mouth and nose with a face mask. The person who has symptoms must go as soon as possible for testing and treatment. Remember! Anyone can get TB!!",
+        "questionImage": null
+      },
+      {
+        "screen": "explanation",
+        "text": "True! When someone gets TB, the family members are more likely to get TB too. It is important to practice good hygiene, wash your hands often, cover your mouth and nose with a face mask. The person who has symptoms must go as soon as possible for testing and treatment. Remember! Anyone can get TB!!",
+        "answer": "true"
+      }
+    ]
+  }
+}
